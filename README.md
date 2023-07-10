@@ -9,3 +9,6 @@ En Workbench se creó la base de datos Mysql llamada alex, la base de datos tien
 Se trabaja con el entorno de desarrollo Apache NetBeans al cual se agrega la libreria mysql-connector-java-8.0.11 y servido local Tomcat 9, el usuario para la conexion a la base de datos ac es root y la contraseña es 12569655.
 
 se crea un Java Packages llamado conexion con una archivo conexion.java para crear la conexion a la base de datos, se realiza la prueba de conexion y funciona perfectamente.
+
+Este código archivo conexion.java  se encarga de establecer una conexión a una base de datos MySQL.
+Primero, se importan las clases necesarias para establecer la conexión. Luego, se define un método conectar() que carga el driver de MySQL. Si ocurre algún error al cargar el driver, se imprime un mensaje de error. El método obtenerConexion() es el que se encarga de establecer la conexión a la base de datos. Primero, llama al método conectar() para cargar el driver. Luego, se establece la conexión con la base de datos utilizando la clase DriverManager y se devuelve la conexión. Si ocurre algún error al obtener la conexión, se imprime un mensaje de error.
