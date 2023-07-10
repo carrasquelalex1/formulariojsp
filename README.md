@@ -6,4 +6,4 @@ Los campos de estado, municipio y parroquia estarán anidados, lo que significa 
 
 En Workbench se creó la base de datos Mysql llamada alex, la base de datos tiene 4 tablas llamadas estado, municipio, parroquia y principal. La tabla estado tiene dos columnas Estado y Codestado, La tabla municipio tiene tres columnas Municipio, Codmunicipio y Codestado, la tabla parroquia tiene cuatro columnas Parroquia, Codparroquia, Codmunicipio, Codestado. La tabla principal tiene las columnas Estado, Municipio, Parroquia
 
-Se trabaja con el entorno de desarrollo Apache NetBeans y servido local Tomcat 9
+Se trabaja con el entorno de desarrollo Apache NetBeans al cual se agrega la libreria mysql-connector-java-8.0.11 y servido local Tomcat 9
